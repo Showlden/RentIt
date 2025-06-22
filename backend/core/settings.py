@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 AUTH_USER_MODEL = "account.CustomUser"
 SECRET_KEY = 'django-insecure-3ggia+0r0q4wq1l5$$r($3gql4(5#1^ytt63=+ixg((cp#2*bd'
 DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 
